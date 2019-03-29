@@ -1,0 +1,21 @@
+{
+
+    "extends": "airbnb",
+    "rules":{
+      "react/prefer-stateless-function": [0, { "ignorePureComponents": true }],
+      "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+      "no-use-before-define": ["error", { "functions": false, "classes": false }],
+      "no-param-reassign": 0,
+       "no-console": 0,
+       "react/prop-types": [
+            "enabled",
+            { "ignore": "ignore", "customValidators": "customValidator" }
+          ]
+    },
+    "env": {
+      "browser": true,
+      "node": true
+
+    }
+
+}
